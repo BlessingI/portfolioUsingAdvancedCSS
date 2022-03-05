@@ -14,6 +14,7 @@ body {
     background-color: var(--firstbackground-color);
 }
 
+/* header styling starts here */
 header {
     padding: 10px 15px;
     background-color: var(--headerNav-color);
@@ -60,3 +61,46 @@ header nav ul li a {
     color: var(--primary-color);
 }
 
+/* header styling ends here */
+
+/* hero styling starts here */
+.hero {
+    background-image: url('./assets/images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+}
+
+.hero-img img{
+    height: 170px;
+    width: 200px;
+    position: relative;
+    left: 35px;
+    top: 10px;
+    bottom: 20px;
+    
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.hero-cta h2 {
+    font-size: 30px;
+    color: var(--headerNav-color);
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    
+}
+
+/* hero styling ends here */
