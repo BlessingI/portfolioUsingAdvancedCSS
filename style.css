@@ -2,6 +2,8 @@
     --firstbackground-color: #808080;
     --headerNav-color: #383535;
     --primary-color: #B3D6DD;
+    --secondary-color: #698FA8;
+    --white-color: #fff;
 }
 
 * {
@@ -102,5 +104,28 @@ header nav ul li a {
     right: 15px;
     
 }
-
 /* hero styling ends here */
+
+
+/* section title starts here */
+.section-title {
+    font-size: 38px;
+    color: var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);  
+}
+
+.section-property {
+    background-color: var(--white-color);
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;   
+}
+.section-property .try-move {
+    padding-left: 30px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+/* section title end here */
