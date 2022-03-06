@@ -128,4 +128,29 @@ header nav ul li a {
     display: flex;
 }
 
+
+.img-div img {
+    width: 100%;
+    min-height: 20em;
+    margin: auto;
+}
+
+
+
 /* section title end here */
+
+/* work section starts here */
+
+
+/* work section ends here */
+
+/* contact me style starts here  */
+
+contact-style nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+/* contact me style ends here */
