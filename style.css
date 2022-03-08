@@ -107,21 +107,38 @@ header nav ul li a {
 /* hero styling ends here */
 
 
-/* section title starts here */
-.section-title {
-    font-size: 38px;
+/* Resume styling starts here */
+.rem{
+    list-style: none;
     color: var(--secondary-color);
-    border-right: 3px solid var(--secondary-color);  
+    text-decoration: underline;
+    text-underline-offset: 0.313rem;
+    font-size: 1.25rem;
+
+}
+/* Resume styling stops here */
+
+
+/* new styles */
+section {
+    background-color: var(--white-color);
+}
+.container {
+    display: flex;
 }
 
-.section-property {
-    background-color: var(--white-color);
-    display: flex;
-    padding-left: 100px;
-    padding-top: 20px;   
+.box {
+   padding-left: 80px;
 }
-.section-property .try-move {
+.box h2 {
+    width: 100px;
+    font-size: 23px;
+    border-right: 5px solid var(--secondary-color);
+    color:var(--secondary-color)
+}
+.try-move {
     padding-left: 30px;
+    width: 100%;
 }
 
 .flex-row{
@@ -129,28 +146,23 @@ header nav ul li a {
 }
 
 
-.img-div img {
-    width: 100%;
-    min-height: 20em;
-    margin: auto;
-}
+/* contact styles start here */
 
-
-
-/* section title end here */
-
-/* work section starts here */
-
-
-/* work section ends here */
-
-/* contact me style starts here  */
-
-contact-style nav ul{
+.contactClass ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    padding-left: 10px;
 }
 
 
-/* contact me style ends here */
+.contactClass ul li a {
+    width: 100px;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    text-underline-offset: 0.313rem;
+    color: var(--secondary-color);
+    padding: 20px;
+}
+
+/* contact style ends here */
