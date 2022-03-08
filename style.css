@@ -14,6 +14,7 @@
 
 body {
     background-color: var(--firstbackground-color);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* header styling starts here */
@@ -106,6 +107,20 @@ header nav ul li a {
 }
 /* hero styling ends here */
 
+/* work styling */
+.gfg img{
+    width: 100%;
+    height: 0.5%;
+}
+.gfg {
+    position: relative;
+}
+.first-text {
+    position: absolute;
+    bottom: 30px;
+}
+/* work styling ends */
+
 
 /* Resume styling starts here */
 .rem{
@@ -125,6 +140,7 @@ section {
 }
 .container {
     display: flex;
+    padding: 30px;
 }
 
 .box {
