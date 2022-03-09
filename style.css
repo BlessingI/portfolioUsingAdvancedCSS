@@ -108,38 +108,35 @@ header nav ul li a {
 /* hero styling ends here */
 
 /* work styling */
+
 .project {
+    width: 100%;
+    margin: 20px;
+}
+.bottom {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    }
-    .project img {
-        border: 4px solid var(--secondary-color);
-        margin: 20px;
-    }
-    
-    .left {
-    display: inline-flex;
-    flex: 2 1 200px;
-    flex-direction: column;
-    }
-    
-    .right {
-    display: inline-flex;
-    flex: 1 2 400px;
-    align-items: center;
-    }
-    
-    .small {
-    height: 200px;
-    width: auto;
-    }
-    
-    .large {
-    height: 685px; 
-    width: auto;
-    }
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-bottom: 10px;
+}
+
+.bottom > * {
+    flex: 1 1 20%;
+    border: 3px solid var(--secondary-color);
+}
+
+
+
+#top1 {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#top1 img {
+    height: 100%;
+    width: 100%;
+}
 
 /* work styling ends */
 
@@ -194,6 +191,7 @@ section {
 
 .contactClass ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
     padding-left: 10px;
@@ -208,5 +206,7 @@ section {
     color: var(--headerNav-color);
     padding: 20px;
 }
+
+
 
 /* contact style ends here */
