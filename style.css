@@ -12,6 +12,10 @@
     padding: 0;
   }
 
+  html {
+      font-size: 16px;
+  }
+
 body {
     background-color: var(--firstbackground-color);
     font-family: Helvetica, Arial, sans-serif;
@@ -23,6 +27,7 @@ header {
     background-color: var(--headerNav-color);
     display: flex;
     justify-content: space-between;
+    height: 4rem;
 }
 
 header h1 {
@@ -188,10 +193,9 @@ section {
 
 
 /* contact styles start here */
-
 .contactClass ul{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     list-style: none;
     padding-left: 10px;
@@ -199,12 +203,13 @@ section {
 
 
 .contactClass ul li a {
-    width: 100px;
+    /* width: 100px; */
     font-size: 1.25rem;
     text-decoration: underline;
     text-underline-offset: 0.313rem;
     color: var(--headerNav-color);
     padding: 20px;
+    
 }
 
 
