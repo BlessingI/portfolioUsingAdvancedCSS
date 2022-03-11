@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessing Igbadumhe Portfolio</title>
+    <title>Blessing Igbadumhe portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>
-            <a href="/">Blessing Igbadumhe</a>  
-        </h1>
+        <h1>Blessing </h1>
         <nav>
             <ul>
                 <li>
@@ -29,61 +29,63 @@
             </ul>
         </nav>
     </header>
-
-    <section class="hero">
-        <div class="hero-img">
-            <img src="./assets/images/IMG_5087.GIF" alt="here is a cool picture of me">
-        </div>
-        <div class="hero-cta">
-            <h2>Advanced Software Engineer</h2>
-        </div>
-    </section>
-
-    <section id="about-me" class="container">
-        <div class="box flex-row">
-            <h2>About Me</h2>
-        </div>
-        <div class="try-move">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quibusdam laboriosam veniam, aliquam perferendis temporibus, pariatur eos deserunt animi quam tenetur autem blanditiis aut quos alias. Dolores doloremque illo tempore!</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus laudantium, amet sequi ad, molestias vitae cum recusandae, quaerat dolore est nisi enim placeat a libero rerum quam quibusdam? Necessitatibus.</p>
-            <br>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint autem hic eveniet illo, labore placeat porro, dicta et natus maxime numquam quos libero aperiam corrupti fuga repellendus? Sapiente, facilis soluta.</p>
-        </div>
-    </section>
     
-    <section id="work" class="container">
-        <div class="box flex-row">
+    <div class="hero">
+        <div>
+            <img src="./assets/images/IMG_5087.GIF" alt="" height="150" width="150">
+        </div>
+        <h2>Advanced Software Engineer</h2>
+    </div>
+
+    <section id="about-me" class= "blog">
+        <div class="post flex-row">
+            <h2>About <span class="move-it">Me</span></h2>
+        </div>
+        <div class="details">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quam eos saepe dicta asperiores voluptatum tenetur? Ducimus enim ipsum ullam deserunt, temporibus est eius in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto autem ullam facilis quia iste illum ipsa nihil nemo error voluptatem vel, possimus officia minima, molestiae amet doloribus tempora? Vel, consectetur.
+            A illo aliquam voluptas soluta dicta officiis repudiandae placeat nemo reprehenderit obcaecati facilis at dignissimos iusto laboriosam mollitia in vel recusandae exercitationem velit tenetur, culpa qui. Aperiam nemo ea mollitia.</p>
+        </div>
+    </section>
+
+    <!-- <section id="work" class="blog">
+        <div class="post">
             <h2>Work</h2>
         </div>
-        <div class='project'>
-            <div class='top' id="top1">
-                <img class='large' src='./assets/images/Screen Shot 2022-03-08 at 12.25.08 AM.png'/>
-            </div>
-            <div class='bottom'>
-              <img class='small' src='./assets/images/Screen Shot 2022-03-07 at 10.19.52 PM.png' height="320" width="240"/>
-              <img class='small' src='./assets/images/Screen Shot 2022-03-07 at 9.18.03 PM.png' height="320" width="240"/>
-            </div>
 
-            <div class='bottom'>
-                <img class='small' src='./assets/images/Screen Shot 2022-03-07 at 9.55.06 PM.png' height="320" width="240"/>
-                <img class='small' src='./assets/images/Screen Shot 2022-03-07 at 9.18.03 PM.png' height="320" width="240"/>
+        <div>
+            <div class="image-container post">
+                <img src="./assets/images/Screen Shot 2022-03-07 at 10.19.52 PM.png" alt="">
             </div>
-          </div>
-    </section>
- 
-    <section id="resume" class="container">
-        <div class="box flex-row">
+    
+        <div class="images">
+            <div class="image-container">
+                <img src="./assets/images/Screen Shot 2022-03-07 at 9.18.03 PM.png" alt="" >
+            </div>
+            <div class="image-container">
+                <img src="./assets/images/Screen Shot 2022-03-07 at 9.55.06 PM.png" alt="">
+            </div>
+        </div>
+        </div>
+
+    </section> -->
+
+    <section id="resume" class="blog">
+        <div class="post flex-row">
             <h2>Resume</h2>
         </div>
-        <div class="try-move">
-            <a class="rem" href="">Click on link to download resume</a>
+        <div class="details download">
+            <a href="./assets/pdf-file/Blessing_Igbadumhe Resume.doc">
+               Please click to Download Resume
+            </a>
         </div>
     </section>
-    
-    <section id="contact-me" class="container">
-        <div class="box flex-row">
-            <h2>Contact Me</h2>
+
+    <section id="contact-me" class="blog">
+        <div class="post flex-row">
+            <h2>
+                Contact <span class="move-it">Me</span>
+            </h2>
         </div>
         <div class="contactClass">
             <ul>
@@ -95,6 +97,5 @@
             </ul>
         </div>
     </section>
-    
 </body>
 </html>
