@@ -29,17 +29,19 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 3rem;
+    height: 4rem;
 }
 
 header h1 {
     font-size: 1.75rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--headerNav-color);
     background-color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-left: 2%;
+    height: 2rem;
+    overflow: hidden;
 }
 
 header nav ul {
@@ -139,6 +141,14 @@ section .details {
     margin-right: 40px;
 }
 
+.move-it2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 14px;
+}
+
+
+
 /* resume styling */
 .download a{
     text-decoration: underline;
@@ -193,7 +203,7 @@ section .details {
 /* work styling */
 .image-container {
     overflow: hidden;
-    margin: 5px 5px 5px 0;
+    margin: 8px 8px 8px 0;
 }
   
 .image-container img {
