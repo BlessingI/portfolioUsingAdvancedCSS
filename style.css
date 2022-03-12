@@ -214,6 +214,10 @@ section .details {
     display: block;
 }
 
+.image-container img:hover {
+    transform: scale(2.3);
+}
+
 .images {
     display: flex;
     justify-content: space-between;
