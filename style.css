@@ -37,11 +37,11 @@ header h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: var(--headerNav-color);
-    background-color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-left: 2%;
     height: 2rem;
     overflow: hidden;
+    background-color: var(--primary-color);
 }
 
 header nav ul {
@@ -97,7 +97,9 @@ header nav ul li a:hover {
     font-size: 1.75rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    margin-right: 5px;
     color: var(--headerNav-color);
+    background-color: var(--primary-color);
 }
 
 .hero div img {
@@ -116,7 +118,7 @@ section {
     font-size: 23px;
     color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     border-right: 3px solid var(--secondary-color);
     width: 200px;
     padding-left: 100px;
