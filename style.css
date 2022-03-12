@@ -140,7 +140,7 @@ section .details {
 .move-it {
     display: flex;
     justify-content: flex-end;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .move-it2 {
