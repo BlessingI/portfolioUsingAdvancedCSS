@@ -4,106 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessing Igbadumhe portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Blessing Igbadumhe portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Blessing Igbadumhe </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    <div class="hero">
-        <div>
-            <img src="./assets/images/IMG_5087.GIF" alt="" height="150" width="200">
+    <div class="container-fluid">
+
+        <div class="row bg-secondary">
+            <div class="col"> <h1> Blessing Igbadumhe </h1> </div>
+            <div class="col">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+                    </li>
+                  </ul>
+            </div>           
         </div>
-        <h2>Advanced Software Engineer</h2>
+
+        <div class="row hero">      
+            <div class="col-5">
+                <img src="./assets/images/IMG_5087.GIF" class="rounded float-start" alt="Blessing Igbadumhe picture" height="150">
+            </div>
+            <div class="col-7">
+                <h2 class="float-end">Advanced Software Engineer</h2>
+            </div>
+        </div>
+
     </div>
 
-    <section id="about-me" class= "blog">
-        <div class="post flex-row">
-            <h2>About <span class="move-it">Me</span></h2>
-        </div>
-        <div class="details">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quam eos saepe dicta asperiores voluptatum tenetur? Ducimus enim ipsum ullam deserunt, temporibus est eius in.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto autem ullam facilis quia iste illum ipsa nihil nemo error voluptatem vel, possimus officia minima, molestiae amet doloribus tempora? Vel, consectetur.
-            A illo aliquam voluptas soluta dicta officiis repudiandae placeat nemo reprehenderit obcaecati facilis at dignissimos iusto laboriosam mollitia in vel recusandae exercitationem velit tenetur, culpa qui. Aperiam nemo ea mollitia.</p>
-        </div>
-    </section>
-
-    <section id="work" class="blog">
-        <div class="post flex-row">
-            <h2>Work</h2>
-        </div>
-
-        <div class="details">
-            <div class="image-container first-image">
-                <a href="https://rjimeneztech.github.io/MovieFinder/" target="blank"><img src="./assets/images/movies12.png" alt=""></a>
-            </div>
-    
-        <div class="images">
-            <div class="image-container">
-                <img src="./assets/images/alexandre-debieve-zkt4hE8O3mg-unsplash.jpg" alt="" >
-            </div>
-            <div class="image-container">
-                <img src="./assets/images/alexandre-debieve-zkt4hE8O3mg-unsplash.jpg" alt="">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-3 border-info border-end"> <h3>About Me</h3> </div>
+            <div class="col ms-2">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, magnam? Voluptatum, eaque nisi libero sint consequuntur, omnis exercitationem nam assumenda, perferendis quibusdam fugit! Perferendis, voluptate reiciendis architecto fuga deleniti nam?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facilis accusamus consequatur porro est quam illo harum totam eius consectetur voluptatem, ab magnam laboriosam dolorum laudantium! Libero dolores magnam ipsam.
+                </p>
             </div>
         </div>
-        <div class="images">
-            <div class="image-container">
-                <img src="./assets/images/alexandre-debieve-zkt4hE8O3mg-unsplash.jpg" alt="" >
+
+        <div class="row mt-3">
+            <div class="col-3 border-info border-end"> <h3> Work </h3> </div>
+
+            <div class="col ms-2">
+                <div class="row mb-3">
+                    <a href="https://blessingi.github.io/run-buddy/" target="blank">
+                        <img src="./assets/images/flipped-hero-image.jpeg" class="img-fluid" alt="...">
+                    </a>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <a href="https://rjimeneztech.github.io/MovieFinder/" target="blank">
+                            <img src="./assets/images/movies12.png" class="img-thumbnail" alt="movie App">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://rjimeneztech.github.io/MovieFinder/" target="blank">
+                            <img src="./assets/images/movies12.png" class="img-thumbnail" alt="movie App">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="image-container">
-                <img src="./assets/images/alexandre-debieve-zkt4hE8O3mg-unsplash.jpg" alt="">
+
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-3 border-info border-end"> <h3>Resume </h3> </div>
+
+            <div class="col ms-2">
+                <a class="text-secondary" href="./assets/pdf-file/Blessing_Igbadumhe Resume.doc">
+                   Please click to Download Resume
+                </a>
+            </div>        
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-3 border-info border-end"> <h3>Contact Me </h3> </div>
+            <div class="col">
+                <nav class="nav">
+                    <a class="nav-link text-secondary" href="#">832.226.9260</a>
+                    <a class="nav-link text-secondary" href="#">Bigbadumhe@gmail.com</a>
+                    <a class="nav-link text-secondary" href="#">Github</a>
+                    <a class="nav-link text-secondary" href="#">Twitter</a>
+                    <a class="nav-link text-secondary" href="#" tabindex="-1" aria-disabled="true">Spotify</a>
+                  </nav>
+
             </div>
         </div>
-        </div>
+        
+    </div>
 
-    </section>
 
-    <section id="resume" class="blog">
-        <div class="post flex-row">
-            <h2>Resume</h2>
-        </div>
-        <div class="details download">
-            <a href="./assets/pdf-file/Blessing_Igbadumhe Resume.doc">
-               Please click to Download Resume
-            </a>
-        </div>
-    </section>
 
-    <section id="contact-me" class="blog">
-        <div class="post flex-row">
-            <h2>
-                Contact <span class="move-it2">Me</span>
-            </h2>
-        </div>
-        <div class="contactClass">
-            <ul>
-                <li><a href="">832.226.9260</a></li>
-                <li><a href="">bigbadumhe@gmail.com</a></li>
-                <li><a href="https://github.com/BlessingI">Github</a></li>
-                <li><a href="https://twitter.com/">Twitter</a></li>
-                <li><a href="https://www.facebook.com/SexygeniusB">Facebook</a></li>
-            </ul>
-        </div>
-    </section>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
