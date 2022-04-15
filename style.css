@@ -4,7 +4,12 @@
 
 h1 {
     background-color: #CDFFF9;
-    display: inline;
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: underline;
+    text-underline-offset: 0.413rem;
 }
 
 
@@ -16,3 +21,7 @@ h1 {
     height: 10rem;
 }
 
+.downloadLink{
+    text-decoration: underline;
+    text-underline-offset: 0.513rem;
+}
